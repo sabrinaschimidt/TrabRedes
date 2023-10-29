@@ -1,3 +1,7 @@
+// Nomes: Níkolas Cavalheiro Gonçalves da Silva,
+// Sabrina Renata Gonçalves Schimidt
+// Cláudia Magno Pereira de Brito
+
 import java.util.Arrays;
 
 public class TicTacToeGame {

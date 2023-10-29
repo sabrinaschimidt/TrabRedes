@@ -1,3 +1,7 @@
+// Nomes: Níkolas Cavalheiro Gonçalves da Silva,
+// Sabrina Renata Gonçalves Schimidt
+// Cláudia Magno Pereira de Brito
+
 import java.util.Scanner;
 
 public class TicTacToeApp {
@@ -50,6 +54,7 @@ public class TicTacToeApp {
         System.out.println("Obrigado por jogar!");
     }
 
+    // Método para autenticar ou criar um novo usuário
     private static User authenticateOrCreateUser(SAIServer saiServer, Scanner scanner, String playerLabel) {
         User authenticatedUser = null;
     
@@ -81,6 +86,7 @@ public class TicTacToeApp {
         return authenticatedUser;
     }
     
+    // Método para imprimir o tabuleiro 
     public static void printBoard(char[][] board) {
         System.out.println("-------------");
         for (int row = 0; row < 3; row++) {
